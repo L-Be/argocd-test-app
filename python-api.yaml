@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: python-fastapi-test:latest
+        image: localhost/python-fastapi-test:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8000
